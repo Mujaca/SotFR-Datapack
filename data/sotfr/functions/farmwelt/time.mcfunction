@@ -5,7 +5,7 @@ scoreboard players remove @s farmwelt_zeit 1
 title @s actionbar [{"text":"Verbleibende Zeit: ","color":"gold"},{"score":{"name":"@s","objective":"farmwelt_zeit_m"},"color":"gold"},{"text":" Minuten","color":"gold"}]
 
 #Add another hour to your pass
-execute if score @s farmwelt_zeit matches 12000 run tellraw @s "Verlängern? Klicke hier"
+execute if score @s farmwelt_zeit matches 12000 run tellraw @s {"text":"Dein Pass läuft in 10 Minuten ab. Klicke hier, um eine weitere Stunde zu kaufen","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Klicke hier, um einen neuen Pass zu erwerben","color":"red","italic":true}]},"clickEvent":{"action":"run_command","value":"trigger farmwelt set 11"}}
 
 #Leave Farmwelt
 execute if score @s farmwelt_zeit matches 1 in minecraft:overworld run function sotfr:farmwelt/leave
