@@ -1,25 +1,11 @@
 {
     "type": "minecraft:overworld",
     "generator": {
-        "biome_source": {
-            "type": "multi_noise",
-            "biomes": [
-                {
-                    "biome": "minecraft:plains",
-                    "parameters": {
-                        "continentalness": 1,
-                        "depth": 1,
-                        "erosion": 1,
-                        "humidity": 1,
-                        "offset": 0,
-                        "temperature": 1,
-                        "weirdness": 1
-                    }
-                }
-            ]
-        },
-        "seed": 0,
-        "settings": "minecraft:overworld",
-        "type": "minecraft:noise"
+      "type": "minecraft:noise",
+      "settings": "minecraft:overworld",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "minecraft:plains"
+      }
     }
-}
+  }
