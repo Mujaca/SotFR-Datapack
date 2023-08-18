@@ -1,1 +1,1 @@
-execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s run say hi
+#execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s run say hi
