@@ -1,5 +1,5 @@
 {
-    "type": "sotfr:farming",
+    "type": "minecraft:overworld",
     "generator": {
         "biome_source": {
             "seed": 0,
