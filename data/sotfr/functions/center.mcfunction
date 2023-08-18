@@ -1,1 +1,1 @@
-execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s if entity @e[type=armor_stand,tag=spawn,distance=..1000] run say hi
+execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s if entity @e[type=armor_stand,tag=spawn,distance=1000] run say hi
