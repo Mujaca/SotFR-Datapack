@@ -7,6 +7,6 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run scoreboard 
 #Errorhandeling to prevent abuse
 execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run execute if score @s farmwelt_zeit matches 84001.. run scoreboard players set @s farmwelt_zeit 84000
 #Join Farmwelt, außer der Spieler befindet sich bereits dort
-execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] unless @s[nbt={Dimension:"sotfr:farming"}] run function sotfr:farmwelt/join
+execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] unless entity @s[nbt={Dimension:"sotfr:farming"}] run function sotfr:farmwelt/join
 #Delete Item
 execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run clear @s diamond 1
