@@ -15,5 +15,8 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         key: ${{ secrets.KEY }}
         script:  |
+          pct console 211
+          ${{ secrets.USERNAME }}
+          ${{ secrets.PASSWORD }}
           cd /var/lib/pufferpanel/servers/4f0ef232/world/datapacks/SotFR-Datapack
           git pull
