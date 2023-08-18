@@ -1,4 +1,7 @@
 say Loaded
+# Overworld Stuff
+scoreboard objectives add zombie_kills minecraft.killed:minecraft.zombie
+
 #Custom Farmwelt
 
 #Trigger zum auslösen von Befehlen

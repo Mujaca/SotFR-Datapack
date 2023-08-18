@@ -1,5 +1,5 @@
 # Everything that only should happen on the Overworld
-function sotfr:overworld/index
+execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s run function sotfr:overworld/index
 
 #Custom Farmwelt
 execute as @a if score @s farmwelt matches 1.. run function sotfr:farmwelt/buy
