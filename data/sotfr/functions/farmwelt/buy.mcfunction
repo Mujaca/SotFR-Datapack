@@ -10,3 +10,6 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run execute if 
 execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run function sotfr:farmwelt/join
 #Delete Item
 execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run clear @s diamond 1
+
+#reset system
+scoreboard players set @s farmwelt 0
