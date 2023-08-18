@@ -16,4 +16,4 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         key: ${{ secrets.KEY }}
         script:  |
-          pct exec 211 "git -C /var/lib/pufferpanel/servers/4f0ef232/world/datapacks/SotFR-Datapack pull"
+          pct exec 211 "pull.sh"
