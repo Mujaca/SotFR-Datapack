@@ -1,6 +1,7 @@
 say Loaded
 # Overworld Stuff
 scoreboard objectives add zombie_kills minecraft.killed:minecraft.zombie
+scoreboard objectives add shadow_ticks dummy 
 
 #Custom Farmwelt
 
