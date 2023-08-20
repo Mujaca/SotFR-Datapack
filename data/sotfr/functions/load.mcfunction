@@ -1,4 +1,7 @@
 say Loaded
+# Stage Management
+scoreboard objectives add stage dummy
+
 # Overworld Stuff
 scoreboard objectives add zombie_kills minecraft.killed:minecraft.zombie
 scoreboard objectives add shadow_ticks dummy 
