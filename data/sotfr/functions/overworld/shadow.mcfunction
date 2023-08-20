@@ -8,4 +8,4 @@ scoreboard players add @s shadow_ticks 1
 execute if entity @s[distance=350..] run scoreboard players add @s shadow_ticks 1
 execute if entity @s[distance=400..] run scoreboard players add @s shadow_ticks 1
 execute if entity @s[distance=450..] run scoreboard players add @s shadow_ticks 1
-execute if score @s shadow_ticks matches 1200..
+execute if score @s shadow_ticks matches 1200.. run function sotfr:overworld/shadowdmg
