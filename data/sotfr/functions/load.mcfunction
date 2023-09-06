@@ -16,3 +16,7 @@ scoreboard objectives add farmwelt_zeit dummy
 scoreboard objectives add farmwelt_zeit_m dummy
 #Dummy Scoreboard für berechnungen
 scoreboard players set #1200 farmwelt_zeit 1200
+
+# Cutscene Stuff
+
+scoreboard objectives add cutscene_ticks dummy

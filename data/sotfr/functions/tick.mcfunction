@@ -9,3 +9,6 @@ scoreboard players enable @a farmwelt
 execute as @a if entity @s[nbt={Dimension:"sotfr:farming"}] if score @s farmwelt_zeit matches 1.. run function sotfr:farmwelt/time
 #Kick players without pass out of the Farmwelt
 execute as @a unless score @s farmwelt_zeit matches 1.. if entity @s[nbt={Dimension:"sotfr:farming"}] run function sotfr:farmwelt/leave
+
+# Cutscene ticks
+execute as @a at @s run function cutscenes/tick
