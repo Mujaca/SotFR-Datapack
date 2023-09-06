@@ -22,5 +22,5 @@ execute if score @s cutscene_ticks matches 1300 run tellraw @s ["",{"text":"[","
 execute if score @s cutscene_ticks matches 1400 run tellraw @s ["",{"text":"[","color":"dark_gray"},{"selector":"@s","color":"dark_gray"},{"text":" Schatten]","color":"dark_gray"},{"text":" UND JETZT:","color":"gray"}]
 execute if score @s cutscene_ticks matches 1500 run title @a title {"text":"VERSCHWINDE!","color":"gray"}
 execute if score @s cutscene_ticks matches 1600 run tp @e[type=armor_stand,tag=spawn,limit=1]
-execute if score @s cutscene_ticks matches 1600 run scoreboard players reset @s cutscene_ticks
 execute if score @s cutscene_ticks matches 1600 run tag @s remove cutscene_1
+execute if score @s cutscene_ticks matches 1600 run scoreboard players reset @s cutscene_ticks
