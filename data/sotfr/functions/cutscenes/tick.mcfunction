@@ -1,1 +1,1 @@
-execute if entity @s[tag=cutscene_1] run cutscenes/opening/tick
+execute if entity @s[tag=cutscene_1] run function cutscenes/opening/tick
