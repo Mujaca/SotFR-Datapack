@@ -11,4 +11,4 @@ execute as @a if entity @s[nbt={Dimension:"sotfr:farming"}] if score @s farmwelt
 execute as @a unless score @s farmwelt_zeit matches 1.. if entity @s[nbt={Dimension:"sotfr:farming"}] run function sotfr:farmwelt/leave
 
 # Cutscene ticks
-execute as @a at @s run function cutscenes/tick
+execute as @a at @s run function sotfr:cutscenes/tick
