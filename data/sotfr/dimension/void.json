@@ -1,4 +1,5 @@
 {
+    "type": "minecraft:overworld",
     "surface_builder": "minecraft:nope",
     "depth": 0.1,
     "scale": 0.2,
@@ -7,6 +8,18 @@
     "precipitation": "none",
     "category": "none",
     "player_spawn_friendly": false,
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "structure_overrides": [],
+        "layers": [
+          {
+            "block": "minecraft:air",
+            "height": 1
+          }
+        ]
+      }
+    },
     "effects": {
       "sky_color": 8103167,
       "fog_color": 12638463,
