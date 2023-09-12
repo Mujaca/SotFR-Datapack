@@ -20,3 +20,6 @@ scoreboard players set #1200 farmwelt_zeit 1200
 # Cutscene Stuff
 
 scoreboard objectives add cutscene_ticks dummy
+
+# Bossfight Stuff
+scoreboard objectives add bossfight1 dummy

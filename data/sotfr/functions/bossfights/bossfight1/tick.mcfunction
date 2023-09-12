@@ -1,0 +1,1 @@
+execute store result score blocks bossfight1 if blocks 308 12 -225 315 18 -218 308 12 -225 masked
