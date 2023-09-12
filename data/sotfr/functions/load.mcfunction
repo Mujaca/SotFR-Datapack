@@ -23,3 +23,4 @@ scoreboard objectives add cutscene_ticks dummy
 
 # Bossfight Stuff
 scoreboard objectives add bossfight1 dummy
+bossbar add bossfight1 {"text":"Das Haus","color":"red","bold":true}
