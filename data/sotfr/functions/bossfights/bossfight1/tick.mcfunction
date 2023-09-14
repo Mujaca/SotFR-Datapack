@@ -5,4 +5,4 @@ execute unless score blocks bossfight1 matches 0 run setblock 306 10 -225 minecr
 
 execute store result bossbar minecraft:bossfight1 value run scoreboard players get hp bossfight1
 scoreboard players add nextDamage bossfight1 1
-execute if score nextAttack bossfight1 matches 600 run function sotfr:bossfights/bossfight1/randomattack
+execute if score nextDamage bossfight1 matches 600 run function sotfr:bossfights/bossfight1/randomattack
