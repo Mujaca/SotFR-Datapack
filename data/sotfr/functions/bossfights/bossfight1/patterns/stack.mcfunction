@@ -1,0 +1,1 @@
+tag @r[tag=bossfight1] add stackMarker
