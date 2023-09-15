@@ -1,5 +1,5 @@
 # No Item Drops; (Please refer from dropping any items in the fight)
-execute as @a at @s as @e[type=item,distance=0.1..0.8] run tag @s add dropped
+execute as @a at @s as @e[type=item,distance=0.1..2] run tag @s add dropped
 execute as @a[nbt={Dimension:"sotfr:void"}] run kill @e[type=item,tag=!dropped]
 
 # Boss DMG Calc
