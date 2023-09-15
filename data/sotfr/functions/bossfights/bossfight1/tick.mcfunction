@@ -12,6 +12,6 @@ scoreboard players add nextDamage bossfight1 1
 execute if score nextDamage bossfight1 matches 600 run function sotfr:bossfights/bossfight1/randomattack
 
 #Damage Type Ticks
-execute if entity @a[tag=spread] run function sotfr:bossfights/attacks/spread
-execute if entity @a[tag=stackMarker] run function sotfr:bossfights/attacks/stack
-execute if entity @e[type=armor_stand,tag=tower,tag=active] run function sotfr:bossfights/attacks/tower
+execute if entity @a[tag=spread] run function sotfr:bossfights/attacks/spread/spread
+execute if entity @a[tag=stackMarker] run function sotfr:bossfights/attacks/stack/stack
+execute if entity @e[type=armor_stand,tag=tower,tag=active] run function sotfr:bossfights/attacks/tower/tower
