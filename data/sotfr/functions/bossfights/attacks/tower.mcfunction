@@ -1,0 +1,2 @@
+scoreboard players add tower bossfightDamage 1
+execute if score tower bossfightDamage matches 400 as @e[type=minecraft:armor_stand,tag=tower] at @s unless entity @a[distance=..2] as @a run function sotfr:bossfights/attacks/towerdamage
