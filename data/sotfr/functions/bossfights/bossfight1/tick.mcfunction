@@ -15,3 +15,4 @@ execute if score nextDamage bossfight1 matches 600 run function sotfr:bossfights
 execute if entity @a[tag=spread] run function sotfr:bossfights/attacks/spread/spread
 execute if entity @a[tag=stackMarker] run function sotfr:bossfights/attacks/stack/stack
 execute if entity @e[type=armor_stand,tag=tower,tag=active] run function sotfr:bossfights/attacks/tower/tower
+execute if entity @e[type=armor_stand,tag=fangs,tag=dmg] run function sotfr:bossfights/bossfight1/attacks/fangs/fang
