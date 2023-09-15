@@ -22,5 +22,5 @@ summon minecraft:evoker_fangs ^ ^ ^18
 summon minecraft:evoker_fangs ^ ^ ^19
 summon minecraft:evoker_fangs ^ ^ ^20
 
-tp @e[type=armor_stand,tag=dmg,tag=fangs] ~ ~-2 ~
+tp @s ~ ~-2 ~
 tag @e[type=minecraft:armor_stand,tag=dmg,tag=fangs] remove dmg
