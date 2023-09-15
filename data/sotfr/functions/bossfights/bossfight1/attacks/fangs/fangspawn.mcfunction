@@ -1,5 +1,4 @@
 scoreboard players set fangs bossfightDamage 0
-tag @e[type=minecraft:armor_stand,tag=dmg,tag=fangs] remove dmg
 
 summon minecraft:evoker_fangs ^ ^ ^
 summon minecraft:evoker_fangs ^ ^ ^1
@@ -22,3 +21,6 @@ summon minecraft:evoker_fangs ^ ^ ^17
 summon minecraft:evoker_fangs ^ ^ ^18
 summon minecraft:evoker_fangs ^ ^ ^19
 summon minecraft:evoker_fangs ^ ^ ^20
+
+tp @e[type=armor_stand,tag=dmg,tag=fangs] ~ ~-2 ~
+tag @e[type=minecraft:armor_stand,tag=dmg,tag=fangs] remove dmg
