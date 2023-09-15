@@ -1,4 +1,7 @@
 say Loaded
+# Random Numbers
+scoreboard objectives add random dummy
+
 # Stage Management
 scoreboard objectives add stage dummy
 
