@@ -14,4 +14,4 @@ execute as @a unless score @s farmwelt_zeit matches 1.. if entity @s[nbt={Dimens
 execute as @a at @s run function sotfr:cutscenes/tick
 
 # Bossfight 1
-execute in sotfr:void run function sotfr:bossfights/bossfight1/tick
+execute if entity @a[tag=bossfight1] in sotfr:void run function sotfr:bossfights/bossfight1/tick
