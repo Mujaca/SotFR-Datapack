@@ -1,6 +1,6 @@
 # No Item Drops; (Please refer from dropping any items in the fight)
-execute as @a at @s as @e[type=item,nbt={Dimension:"sotfr:void"},distance=0.1..0.2] run tag @s add dropped
-kill @e[type=item,nbt={Dimension:"sotfr:void"},tag=!dropped]
+execute as @a at @s as @e[type=item,distance=0.1..0.2] run tag @s add dropped
+execute as @a[nbt={Dimension:"sotfr:void"}] run kill @e[type=item,tag=!dropped]
 
 # Boss DMG Calc
 execute store result score blocks bossfight1 if blocks 308 12 -225 315 18 -218 308 12 -225 masked
