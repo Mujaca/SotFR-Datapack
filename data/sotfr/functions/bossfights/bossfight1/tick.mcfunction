@@ -9,7 +9,7 @@ execute store result bossbar minecraft:bossfight1 value run scoreboard players g
 
 # Next Damage Ticks
 scoreboard players add nextDamage bossfight1 1
-execute if score nextDamage bossfight1 matches 600 run function sotfr:bossfights/bossfight1/randomattack
+execute if score nextDamage bossfight1 matches 300 run function sotfr:bossfights/bossfight1/randomattack
 
 #Damage Type Ticks
 execute if entity @a[tag=spreadMark] run function sotfr:bossfights/attacks/spread/spread
