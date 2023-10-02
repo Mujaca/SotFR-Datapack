@@ -1,5 +1,5 @@
 # Boss DMG Calc
-execute store result score blocks bossfight1 if blocks 308 12 -225 315 18 -218 308 12 -225 masked
+execute store result score blocks bossfight1 if blocks 293 12 -241 313 40 -212 293 12 -241 masked
 scoreboard players operation blocks bossfight1 -= maxBlocks bossfight1
 scoreboard players operation hp bossfight1 += blocks bossfight1
 execute unless score blocks bossfight1 matches 0 run setblock 306 10 -225 minecraft:redstone_block
