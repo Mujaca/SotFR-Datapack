@@ -1,3 +1,4 @@
+scoreboard players reset nextAd bossfight1
 function sotfr:utils/random
 
 execute if score @e[name=random,tag=random,limit=1] random matches 0..2 as @a[tag=bossfight] run function sotfr:bossfights/ads/brute
