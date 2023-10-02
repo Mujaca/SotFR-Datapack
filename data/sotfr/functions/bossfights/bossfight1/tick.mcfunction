@@ -13,7 +13,11 @@ execute if score nextDamage bossfight1 matches 300 run function sotfr:bossfights
 
 #Next Ad Ticks
 scoreboard players add nextAd bossfight1 1
-execute if score nextAd bossfight1 matches 200 run function sotfr:bossfights/bossfight1/nextad
+execute if score nextAd bossfight1 matches 400 run function sotfr:bossfights/bossfight1/nextad
+
+#Next Simple Attack
+scoreboard players add simpleAttack bossfight1 1
+execute if score simpleAttack bossfight1 matches 200 run function sotfr:bossfights/bossfight1/simpleattack
 
 #Damage Type Ticks
 execute if entity @a[tag=spreadMark] run function sotfr:bossfights/attacks/spread/spread
