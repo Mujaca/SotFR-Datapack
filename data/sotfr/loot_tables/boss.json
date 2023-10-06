@@ -10,19 +10,43 @@
         {
           "type": "minecraft:item",
           "weight": 30,
-          "quality": 15,
+          "quality": 30,
           "name": "kubejs:shadow_flesh"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "quality": 40,
+          "quality": 10,
           "name": "mysticalagriculture:inferium_growth_accelerator"
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
+          "quality": 1,
+          "name": "bhc:red_heart_canister"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "name": "bhc:yellow_heart_canister"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 1,
+          "name": "bhc:green_heart_canister"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:diamond"
+          "quality": 1,
+          "name": "bhc:blue_heart_canister"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:shadow_core"
         }
       ]
     }
