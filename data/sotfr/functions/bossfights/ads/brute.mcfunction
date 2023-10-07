@@ -1,1 +1,2 @@
 summon piglin_brute ~ ~ ~ {Glowing:1b,Health:70f,IsImmuneToZombification:1b,Tags:["bossAd"],HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s},{id:"minecraft:vanishing_curse",lvl:1s}]}},{}]}
+summon piglin_brute ~ ~ ~ {Glowing:1b,Health:70f,IsImmuneToZombification:1b,Tags:["bossAd"],HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s},{id:"minecraft:vanishing_curse",lvl:1s}]}},{}]}
