@@ -15,3 +15,4 @@ execute as @a at @s run function sotfr:cutscenes/tick
 
 # Bossfight 1
 execute if entity @a[tag=bossfight1] in sotfr:void run function sotfr:bossfights/bossfight1/tick
+execute if entity @a[tag=waitingF1] run function sotfr:bossfights/bossfight1/waittick
