@@ -25,6 +25,7 @@ execute if score @s cutscene_ticks matches 2250 run tellraw @s {"text":"[Profess
 execute if score @s cutscene_ticks matches 2400 run tellraw @s {"text":"[Professor] Meine Machine nimmt als Energie Schatten Fleisch. Wenn du keins hast versuch mal Zombies außerhalb der Schattenbarriere zu töten."}
 execute if score @s cutscene_ticks matches 2550 run tellraw @s {"text":"[Professor] Du kannst die Machine aktivieren indem du '/trigger farmwelt' im Chat eingibst."}
 execute if score @s cutscene_ticks matches 2700 run tellraw @s {"text":"[Professor] Wenn du mich jetzt entschuldigen würdest ... ich ähm kehre in mein Labor zurück."}
+execute if score @s cutscene_ticks matches 2700 run scoreboard players set #global stage 1
 execute if score @s cutscene_ticks matches 2700 run tag @s remove cutscene_2
 execute if score @s cutscene_ticks matches 2700 run tag @s add cutscene_2_complete
 execute if score @s cutscene_ticks matches 2700 run stopsound @s
