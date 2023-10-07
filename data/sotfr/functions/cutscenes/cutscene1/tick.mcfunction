@@ -1,4 +1,4 @@
-tp @e[type=minecraft:armor_stand,tag=cutscene1,limit=1]
+execute if score @s cutscene_ticks matches 1..1799 run tp @e[type=minecraft:armor_stand,tag=cutscene1,limit=1]
 scoreboard players add @s cutscene_ticks 1
 
 execute if score @s cutscene_ticks matches 1 run gamemode spectator @s
@@ -18,7 +18,7 @@ execute if score @s cutscene_ticks matches 1650 run tellraw @s ["",{"text":"[","
 execute if score @s cutscene_ticks matches 1800 run tp @e[type=armor_stand,tag=spawn,limit=1]
 execute if score @s cutscene_ticks matches 1800 run gamemode survival @s
 execute if score @s cutscene_ticks matches 1800 run stopsound @s
-execute if score @s cutscene_ticks matches 1800 run playsound kubejs:prof weather @s
+execute if score @s cutscene_ticks matches 1800 run playsound kubejs:prof weather @s ~ ~ ~
 execute if score @s cutscene_ticks matches 1800 run tellraw @s {"text":"[Professor] Soooo ich habe dich ... Vielleicht noch nicht ganz bei mir du solltest mir aber hören können."}
 execute if score @s cutscene_ticks matches 2100 run tellraw @s {"text":"[Professor] Während du im Spalt warst habe ich was gefunden: Einen Weg in die echte Welt zurück"}
 execute if score @s cutscene_ticks matches 2250 run tellraw @s {"text":"[Professor] Leider ist dieser nur temporär, aber immerhin besser als gar nichts."}
