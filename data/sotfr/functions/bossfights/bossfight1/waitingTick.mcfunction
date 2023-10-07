@@ -6,4 +6,4 @@ execute store result score countdownS bossfight1 run scoreboard players get coun
 execute if score players bossfight1 matches 4.. run scoreboard players operation countdownS bossfight1 /= seconds bossfight1
 
 execute if score players bossfight1 matches ..4 run title @a[tag=waitingF1] actionbar ["",{"score":{"name":"players","objective":"bossfight1"}},{"text":"/4 to start Bossfight"}]
-execute if score players bossfight1 matches 4.. run title @a[tag=waitingF1] actionbar ["",{"score":{"name":"players","objective":"bossfight1"}},{"text":"/4. Start in "}]
+execute if score players bossfight1 matches 4.. run title @a[tag=waitingF1] actionbar ["",{"score":{"name":"players","objective":"bossfight1"}},{"text":"/4. Start in "},{"score":{"name":"countdownS","objective":"bossfight1"}},{"text":" seconds."}]
