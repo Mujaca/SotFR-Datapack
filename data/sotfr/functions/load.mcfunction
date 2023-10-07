@@ -27,5 +27,6 @@ scoreboard objectives add cutscene_ticks dummy
 # Bossfight Stuff
 scoreboard objectives add bossfightDamage dummy
 scoreboard objectives add bossfight1 dummy
+scoreboard objectives add joinfight trigger
 bossbar add bossfight1 {"text":"Das Riesenrad","color":"red","bold":true}
 scoreboard players set seconds bossfight1 20
