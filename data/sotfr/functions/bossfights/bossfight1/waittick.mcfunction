@@ -7,3 +7,5 @@ execute if score players bossfight1 matches 4.. run scoreboard players operation
 
 execute if score players bossfight1 matches ..4 run title @a[tag=waitingF1] actionbar ["",{"score":{"name":"players","objective":"bossfight1"}},{"text":"/4 to start Bossfight"}]
 execute if score players bossfight1 matches 4.. run title @a[tag=waitingF1] actionbar ["",{"score":{"name":"players","objective":"bossfight1"}},{"text":"/4. Start in "},{"score":{"name":"countdownS","objective":"bossfight1"}},{"text":" seconds."}]
+
+execute if score countdown bossfight1 matches 0 as @a[tag=waitingF1] at @s run function sotfr:bossfights/bossfight1/startfight
