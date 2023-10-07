@@ -7,4 +7,4 @@ execute if score @e[name=random,tag=random,limit=1] random matches 4..6 as @a[ta
 execute if score @e[name=random,tag=random,limit=1] random matches 7.. as @a[tag=bossfight] run function sotfr:bossfights/ads/phantom
 
 execute in sotfr:void run spreadplayers 290.44 -220.65 10 20 false @e[tag=bossAd]
-effect give @e[tag=bossAd] fire_resistance infinite 1 true
+effect give @e[tag=bossAd] fire_resistance 1000000 1 true
