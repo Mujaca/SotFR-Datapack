@@ -2,8 +2,8 @@ tp @e[type=minecraft:armor_stand,tag=cutscene1,limit=1]
 scoreboard players add @s cutscene_ticks 1
 
 execute if entity @s[gamemode=!spectator] run gamemode spectator @s
-execute if score @s cutscene_ticks matches 1 run playsound kubejs:shadow weather @s ~ ~ ~ 1
 execute if score @s cutscene_ticks matches 1 run tellraw @s ["",{"text":"[","color":"dark_gray"},{"selector":"@s","obfuscated":true,"color":"dark_gray"},{"text":"`s Schatten","obfuscated":true,"color":"dark_gray"},{"text":"]","color":"dark_gray"},{"text":" Ohhhhh wen haben wir denn da?","color":"gray"}]
+execute if score @s cutscene_ticks matches 5 run playsound kubejs:shadow weather @s ~ ~ ~ 1
 execute if score @s cutscene_ticks matches 150 run tellraw @s ["",{"text":"[","color":"dark_gray"},{"selector":"@s","obfuscated":true,"color":"dark_gray"},{"text":"`s Schatten","obfuscated":true,"color":"dark_gray"},{"text":"]","color":"dark_gray"},{"text":" Dich habe ich hier aber nicht erwartet.","color":"gray"}]
 execute if score @s cutscene_ticks matches 300 run tellraw @s ["",{"text":"[","color":"dark_gray"},{"selector":"@s","obfuscated":true,"color":"dark_gray"},{"text":"`s Schatten","obfuscated":true,"color":"dark_gray"},{"text":"]","color":"dark_gray"},{"text":" Dachte du bist mit mit anderen Dingen beschäftigt ...","color":"gray"}]
 execute if score @s cutscene_ticks matches 450 run tellraw @s ["",{"text":"[","color":"dark_gray"},{"selector":"@s","obfuscated":true,"color":"dark_gray"},{"text":"`s Schatten","obfuscated":true,"color":"dark_gray"},{"text":"]","color":"dark_gray"},{"text":" Und nun stehst du doch vor mir. \u0020Was ein schöner Zufall.","color":"gray"}]
@@ -25,6 +25,6 @@ execute if score @s cutscene_ticks matches 2550 run tellraw @s ["",{"text":"[","
 execute if score @s cutscene_ticks matches 2700 run title @s title {"text":"VERSCHWINDE!","color":"gray"}
 execute if score @s cutscene_ticks matches 2700 run tp @e[type=armor_stand,tag=spawn,limit=1]
 execute if score @s cutscene_ticks matches 2700 run tag @s remove cutscene_1
-execute if score @s cutscene_ticks matches 2700 run scoreboard players reset @s cutscene_ticks
 execute if score @s cutscene_ticks matches 2700 run gamemode survival @s
 execute if score @s cutscene_ticks matches 2700 run stopsound @s
+execute if score @s cutscene_ticks matches 2700 run scoreboard players reset @s cutscene_ticks
