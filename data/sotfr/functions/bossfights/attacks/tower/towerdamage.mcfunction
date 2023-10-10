@@ -1,6 +1,6 @@
 scoreboard players set tower bossfightDamage 0
-damage @s 20 minecraft:magic
-effect give @a minecraft:hunger 6 255
+damage @s 40 minecraft:outofworld
+effect give @a minecraft:hunger 20 255
 particle minecraft:explosion ~ ~ ~ 1 1 1 0.3 100 force
 setblock ~ ~ ~ air
 tag @e[type=armor_stand,tag=tower,tag=active] remove active

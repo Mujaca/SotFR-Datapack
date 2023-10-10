@@ -27,7 +27,7 @@ execute if entity @e[type=armor_stand,tag=tower,tag=active] run function sotfr:b
 execute if entity @e[type=armor_stand,tag=fangs,tag=dmg] run function sotfr:bossfights/bossfight1/attacks/fangs/fang
 
 # Special Effects
-execute as @a if entity @e[type=evoker_fangs,distance=..1] run damage @s 4 minecraft:magic
+execute as @a if entity @e[type=evoker_fangs,distance=..1] run damage @s 8 minecraft:outofworld
 execute as @a if entity @e[type=evoker_fangs,distance=..1] run effect give @s slowness 1 100 false
 
 execute if score hp bossfight1 matches 0 run function sotfr:bossfights/bossfight1/end
