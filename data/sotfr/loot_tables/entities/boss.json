@@ -16,7 +16,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "quality": 10,
+          "quality": 50,
           "name": "mysticalagriculture:inferium_growth_accelerator"
         },
         {
