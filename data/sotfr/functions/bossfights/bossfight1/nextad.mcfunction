@@ -6,5 +6,5 @@ execute in sotfr:void positioned 288 12 -225 if score @e[name=random,tag=random,
 execute in sotfr:void positioned 288 12 -225 if score @e[name=random,tag=random,limit=1] random matches 4..6 as @a[tag=bossfight] run function sotfr:bossfights/ads/zombie
 execute in sotfr:void positioned 288 12 -225 if score @e[name=random,tag=random,limit=1] random matches 7.. as @a[tag=bossfight] run function sotfr:bossfights/ads/phantom
 
-execute in sotfr:void run spreadplayers 290.44 -220.65 10 20 false @e[tag=bossAd]
+execute in sotfr:void positioned 288 12 -225 run spreadplayers 290.44 -220.65 10 20 false @e[tag=bossAd]
 effect give @e[tag=bossAd] fire_resistance 1000000 1 true
