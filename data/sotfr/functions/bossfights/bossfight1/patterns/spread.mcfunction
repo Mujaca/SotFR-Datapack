@@ -1,1 +1,1 @@
-tag @a[tag=bossfight1] add spreadMark
+tag @a[tag=bossfight1,limit=3] add spreadMark
